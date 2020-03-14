@@ -2,11 +2,11 @@ package com.example.test;
 
 import com.jayway.restassured.RestAssured;
 
-public class UnitTestBase {
+public class TestBase {
 
   protected String accessToken = System.getenv("accessToken");
 
-  public UnitTestBase() {
+  public TestBase() {
     RestAssured.baseURI = "https://api.github.com";
   }
 }
