@@ -29,3 +29,16 @@ spotless {
         googleJavaFormat()
     }
 }
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "gradle.plugin.com.github.lkishalmi.gatling:gradle-gatling-plugin:3.3.0"
+    }
+}
+
+apply plugin: "com.github.lkishalmi.gatling"
