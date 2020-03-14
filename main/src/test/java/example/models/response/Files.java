@@ -1,4 +1,4 @@
-package com.example.models.post;
+package example.models.response;
 
 public class Files {
 

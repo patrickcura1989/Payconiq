@@ -1,6 +1,6 @@
-package com.example.models.response;
+package example.models.response;
 
-public class Owner {
+public class User {
 
   private String login;
   private Integer id;
@@ -29,7 +29,7 @@ public class Owner {
     this.login = login;
   }
 
-  public Owner withLogin(String login) {
+  public User withLogin(String login) {
     this.login = login;
     return this;
   }
@@ -42,7 +42,7 @@ public class Owner {
     this.id = id;
   }
 
-  public Owner withId(Integer id) {
+  public User withId(Integer id) {
     this.id = id;
     return this;
   }
@@ -55,7 +55,7 @@ public class Owner {
     this.nodeId = nodeId;
   }
 
-  public Owner withNodeId(String nodeId) {
+  public User withNodeId(String nodeId) {
     this.nodeId = nodeId;
     return this;
   }
@@ -68,7 +68,7 @@ public class Owner {
     this.avatarUrl = avatarUrl;
   }
 
-  public Owner withAvatarUrl(String avatarUrl) {
+  public User withAvatarUrl(String avatarUrl) {
     this.avatarUrl = avatarUrl;
     return this;
   }
@@ -81,7 +81,7 @@ public class Owner {
     this.gravatarId = gravatarId;
   }
 
-  public Owner withGravatarId(String gravatarId) {
+  public User withGravatarId(String gravatarId) {
     this.gravatarId = gravatarId;
     return this;
   }
@@ -94,7 +94,7 @@ public class Owner {
     this.url = url;
   }
 
-  public Owner withUrl(String url) {
+  public User withUrl(String url) {
     this.url = url;
     return this;
   }
@@ -107,7 +107,7 @@ public class Owner {
     this.htmlUrl = htmlUrl;
   }
 
-  public Owner withHtmlUrl(String htmlUrl) {
+  public User withHtmlUrl(String htmlUrl) {
     this.htmlUrl = htmlUrl;
     return this;
   }
@@ -120,7 +120,7 @@ public class Owner {
     this.followersUrl = followersUrl;
   }
 
-  public Owner withFollowersUrl(String followersUrl) {
+  public User withFollowersUrl(String followersUrl) {
     this.followersUrl = followersUrl;
     return this;
   }
@@ -133,7 +133,7 @@ public class Owner {
     this.followingUrl = followingUrl;
   }
 
-  public Owner withFollowingUrl(String followingUrl) {
+  public User withFollowingUrl(String followingUrl) {
     this.followingUrl = followingUrl;
     return this;
   }
@@ -146,7 +146,7 @@ public class Owner {
     this.gistsUrl = gistsUrl;
   }
 
-  public Owner withGistsUrl(String gistsUrl) {
+  public User withGistsUrl(String gistsUrl) {
     this.gistsUrl = gistsUrl;
     return this;
   }
@@ -159,7 +159,7 @@ public class Owner {
     this.starredUrl = starredUrl;
   }
 
-  public Owner withStarredUrl(String starredUrl) {
+  public User withStarredUrl(String starredUrl) {
     this.starredUrl = starredUrl;
     return this;
   }
@@ -172,7 +172,7 @@ public class Owner {
     this.subscriptionsUrl = subscriptionsUrl;
   }
 
-  public Owner withSubscriptionsUrl(String subscriptionsUrl) {
+  public User withSubscriptionsUrl(String subscriptionsUrl) {
     this.subscriptionsUrl = subscriptionsUrl;
     return this;
   }
@@ -185,7 +185,7 @@ public class Owner {
     this.organizationsUrl = organizationsUrl;
   }
 
-  public Owner withOrganizationsUrl(String organizationsUrl) {
+  public User withOrganizationsUrl(String organizationsUrl) {
     this.organizationsUrl = organizationsUrl;
     return this;
   }
@@ -198,7 +198,7 @@ public class Owner {
     this.reposUrl = reposUrl;
   }
 
-  public Owner withReposUrl(String reposUrl) {
+  public User withReposUrl(String reposUrl) {
     this.reposUrl = reposUrl;
     return this;
   }
@@ -211,7 +211,7 @@ public class Owner {
     this.eventsUrl = eventsUrl;
   }
 
-  public Owner withEventsUrl(String eventsUrl) {
+  public User withEventsUrl(String eventsUrl) {
     this.eventsUrl = eventsUrl;
     return this;
   }
@@ -224,7 +224,7 @@ public class Owner {
     this.receivedEventsUrl = receivedEventsUrl;
   }
 
-  public Owner withReceivedEventsUrl(String receivedEventsUrl) {
+  public User withReceivedEventsUrl(String receivedEventsUrl) {
     this.receivedEventsUrl = receivedEventsUrl;
     return this;
   }
@@ -237,7 +237,7 @@ public class Owner {
     this.type = type;
   }
 
-  public Owner withType(String type) {
+  public User withType(String type) {
     this.type = type;
     return this;
   }
@@ -250,7 +250,7 @@ public class Owner {
     this.siteAdmin = siteAdmin;
   }
 
-  public Owner withSiteAdmin(Boolean siteAdmin) {
+  public User withSiteAdmin(Boolean siteAdmin) {
     this.siteAdmin = siteAdmin;
     return this;
   }
