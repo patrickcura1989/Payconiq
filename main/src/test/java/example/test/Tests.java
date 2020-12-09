@@ -1,11 +1,10 @@
 package example.test;
 
-import static com.jayway.restassured.RestAssured.given;
+import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.jayway.restassured.response.Response;
 import example.models.post.Files;
 import example.models.post.PostGist;
 import example.models.post.Simplefile;
@@ -13,6 +12,8 @@ import example.models.response.Gist;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
+
+import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 
 public class Tests extends TestBase {

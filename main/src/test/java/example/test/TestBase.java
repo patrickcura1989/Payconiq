@@ -1,6 +1,7 @@
 package example.test;
 
-import com.jayway.restassured.RestAssured;
+
+import io.restassured.RestAssured;
 
 public class TestBase {
 
